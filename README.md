@@ -1,2 +1,2 @@
 # maze-pathfinder
-Users will be able to submit a 10x0 maze and it will be solved.
+A maze solver that finds the optimal path using search algorithms
