@@ -14,3 +14,14 @@ An example of a 5x5 maze (with optimal path marked by O):
   100OO
   1011E
   10000
+
+Each cell is represented by its coordinates, and it is stored as a 2D list.
+
+Breadth First Search (BFS) Plan: (February)
+1. Add start node to queue
+2. Mark start as visited
+3. While queue is not empty:
+   - Remove front node
+   - If node is end, stop
+   - Otherwise add all valid unvisited neighbours
+4. Use parent dictionary to reconstruct path
