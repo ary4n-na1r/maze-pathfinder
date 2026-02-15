@@ -6,4 +6,6 @@ maze55 = [
   ["1","1","1","0","E"]
 ]
 for i in maze55:
-  print(i)
+  for x in i:
+    if x == "S":
+      print(maze55[i][x])
